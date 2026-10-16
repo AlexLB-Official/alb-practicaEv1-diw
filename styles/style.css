@@ -1,0 +1,180 @@
+/* Declarando los atributos del iframe */
+#yt-video {
+    border: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Creamos el formato de la cabecera */
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center; /* Alineamos los contenidos dentro del header al centro */
+}
+
+header h1 > a {
+    color: rgb(240,93,80);
+    text-decoration: none;
+}
+
+header h1 > a:hover {
+    color: rgba(240, 93, 80, 0.5);
+}
+
+/* Creamos el formato del pie de página */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0,0,25);
+    height: 10vh;
+    margin-top: 10vh;
+}
+
+footer > p {
+    color: rgb(255,255,255);
+    font-size: small;
+}
+
+footer > a {
+    text-decoration: none;
+    color: rgb(255,255,255);
+    font-size: small;
+}
+
+footer > a:hover {
+    color: rgb(240,93,80);
+}
+
+/* Creamos el formato del menú principal */
+nav > a {
+    color: rgb(0, 0, 25);
+    text-decoration-line: none; /* Quitamos la línea que subraya los enlaces */
+}
+
+nav > a:hover {
+    color: rgba(0, 0, 25, 0.5);
+}
+
+nav > a.active {
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Modificamos la forma de organizar los contenidos dentro del nav */
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Formato del contenido principal */
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5em;
+}
+
+* p {
+    color: rgb(0, 0, 25);
+}
+
+cite,
+blockquote,
+q {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul li > a {
+    color: rgb(240, 93, 80);
+    text-decoration-line: none;
+    font-weight: normal;
+}
+
+ul li > a:hover {
+    color: rgba(240, 93, 80, 0.5);
+}
+
+.container > section > ul li {
+    color: rgba(0, 0, 25, 0.25);
+}
+
+/* Modificaciones en el documento css para su parecido con la práctica */
+
+/* Aplicamos espaciados entre parrafos */
+.container > section > p {
+    margin-bottom: 1.2em;
+}
+
+/* Modificando espaciado frente a los bordes */
+.container {
+    width: 95%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Modificando estilo del primer section en el contenedor */
+.container > section:first-child {
+    text-align: center;
+}
+
+.container > section:first-child > p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Modificando segundo section en el contenedor */
+.container > section:nth-child(2) {
+    text-align: center;
+}
+
+.container > section:nth-child(2) > h2 {
+    font-weight: normal;
+}
+
+.container > section:nth-child(2) > p,
+.container > section:nth-child(2) figcaption {
+    font-size: smaller;
+}
+
+.container > section:nth-child(2) span {
+    color: rgb(240,93,80);
+}
+
+/* Modificando contenido del div */
+.container > div p {
+    font-weight: bolder;
+    max-width: 700px;
+    font-size: large;
+}
+
+/* Modificando elementos del cuarto section en el contenedor */
+.container > section:nth-child(4) > div {
+    text-align: center;
+}
+
+/* Modificando los elementos de la septima section en el contenedor */
+.container > section:nth-child(7) blockquote > p {
+    font-size: large;
+}
+
+.container > section:nth-child(7) blockquote cite {
+    font-size: small;
+}
+
+.container > section:nth-child(7) > p > span{
+    color: rgb(240, 93, 80);
+}
+
+.container > div:last-child > p {
+    font-weight: normal;
+    font-size: small;
+}
+
+.container > div:last-child > p > a {
+    color: rgb(240, 93, 80);
+    text-decoration-line: none;
+    font-style: italic;
+}

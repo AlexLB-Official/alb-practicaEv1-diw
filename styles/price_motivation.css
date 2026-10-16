@@ -1,0 +1,24 @@
+/* Modificamos el ancho del container */
+.container > section > div {
+    text-align: left;
+}
+
+.container > section > div > dl > dt > a {
+    text-decoration-line: none;
+    color: rgb(240,93,80);
+    font-weight: bolder;
+}
+
+.container > section > div > dl > dd > span {
+    color: grey;
+    font-weight: bolder;
+}
+
+.container dt {
+    margin: 1.5em 0em 1.5em 0em; 
+}
+
+.container > div {
+    display: flex;
+    justify-content: center;
+}

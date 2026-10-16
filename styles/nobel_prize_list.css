@@ -1,0 +1,45 @@
+.container {
+    max-width: 790px;
+}
+
+.container h2 {
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+
+/* Editamos la lista */
+.container > section > ul {
+    text-align: left;
+    margin-left: 2em;
+}
+
+.container > div {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.container > section > ul {
+    list-style-image: url("../img/idioma.png");
+    font-weight: bold;
+}
+
+.container > section li > ul > li {
+    list-style: square;
+}
+
+.container > section li > ul > li::marker {
+    color: black;
+}
+
+/* Editamos los textos del section */
+.container > section > p:nth-child(2) {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.container > section > p:nth-child(3) {
+    font-size: 0.7em;
+    margin-bottom: 3em;
+}
